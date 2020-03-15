@@ -1,0 +1,14 @@
+﻿
+<div>
+    <button @onclick="HandleIncrementCount">Increment Count</button>
+</div>
+
+@code {
+    [Inject]
+    public CountStateActions CountStateActions { get; set; }
+
+    public async Task HandleIncrementCount()
+    {
+        await CountStateActions.Increment();
+    }
+}
