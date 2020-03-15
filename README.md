@@ -9,4 +9,5 @@ Checkout the EventHorizon.BlazorPattern.Observer Project for an example of the u
 # Example
 
 ![Image showing cross browser updating of a count state.](image/Example.gif)
+
 Image showing cross browser updating of a count state.
